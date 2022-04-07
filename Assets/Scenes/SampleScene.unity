@@ -272,6 +272,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 847361245}
+  - component: {fileID: 847361246}
   m_Layer: 0
   m_Name: SCRIPT 2
   m_TagString: Untagged
@@ -293,6 +294,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &847361246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847361244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e654097c9774ff84f9eb8b0c1e332bf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PrecioProd1: 4
+  PrecioProd2: 5
+  PrecioProd3: 5
+  DineroDisponible: 15
 --- !u!1 &1270342835
 GameObject:
   m_ObjectHideFlags: 0
@@ -322,8 +339,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c719ba12efee86d4e85d127f228917cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numero1: 0
-  numero2: 0
+  numero1: 7
+  numero2: 7
 --- !u!4 &1270342837
 Transform:
   m_ObjectHideFlags: 0
